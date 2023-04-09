@@ -8,12 +8,7 @@ const StyledApp = styled.div`
   right: 0;
   width: 800px;
   height: 100%;
-  pointer-events: none;
   z-index: 99999999;
-
-  & > * {
-    pointer-events: auto;
-  }
 `;
 const StyledModal = styled.div`
   position: absolute;
